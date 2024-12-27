@@ -1,0 +1,33 @@
+.coin {
+	box-sizing: border-box;
+	margin-top: 50px;
+	width: 90vw;
+	height: 50vh;
+}
+img {
+	width: 200px;
+}
+.coinContainer {
+	padding: 0px 50px;
+	display: flex;
+	align-items: start;
+	justify-content: start;
+	gap: 300px;
+}
+.coinName {
+	font-weight: 600;
+	font-size: 25px;
+}
+.coinItem {
+	width: 400px;
+	gap: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.coinCategory{
+	font-weight: 400;
+}
+.showAll{
+	color: inherit;
+	
+}

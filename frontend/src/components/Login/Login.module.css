@@ -1,0 +1,55 @@
+.form {
+	display: flex;
+	align-items: start;
+	justify-content: center;
+	flex-direction: column;
+	align-self: center;
+	gap: 15px;
+	height: 200px;
+	width: 500px;
+}
+.formContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+.title {
+	padding: 20px 50px;
+	position: absolute;
+	top: 0px;
+	left: 0;
+}
+input {
+	padding: 8px 10px;
+	width: 100%;
+}
+.loginLabel {
+	margin-bottom: 0px;
+	display: inline;
+}
+.signIn {
+	background-color: #833ae0;
+	color: white;
+	padding: 15px 30px;
+	border: none;
+	align-self: center;
+	&:hover {
+		cursor: pointer;
+		&:focus {
+			font-size: 17px;
+			padding: 10px 25px;
+			border-radius: 0.7rem;
+			transform: translate(0, -3px);
+			cursor: pointer;
+			transition: 0.2s;
+			transition-timing-function: linear;
+		}
+	}
+}
+.error {
+	color: red;
+	font-size: 14px;
+	margin-top: 10px;
+}

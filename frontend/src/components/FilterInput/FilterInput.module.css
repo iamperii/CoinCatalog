@@ -1,0 +1,67 @@
+.filterInput {
+	margin-top: 50px;
+	width: 100%;
+	padding: 0px 50px;
+}
+.filterform {
+	display: flex;
+	width: 100%;
+	gap: 100px;
+}
+
+.form1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.select {
+	margin: 10px 0px;
+	padding: 8px;
+	width: 350px;
+}
+.price {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	color: gray;
+}
+.form2 {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.input {
+	padding: 10px;
+	width: 150px;
+}
+
+.priceLabel {
+	margin-bottom: -18px;
+	color: inherit;
+}
+
+label {
+	font-size: smaller;
+	font-weight: bold;
+}
+.searchFilter {
+	background-color: #833ae0;
+	width: 100%;
+	color: white;
+	padding: 15px 30px;
+	border: none;
+	align-self: flex-end;
+	&:hover {
+		cursor: pointer;
+		&:focus {
+			font-size: 17px;
+			padding: 10px 25px;
+			border-radius: 0.7rem;
+			transform: translate(0, -3px);
+			cursor: pointer;
+			transition: 0.2s;
+			transition-timing-function: linear;
+		}
+	}
+}

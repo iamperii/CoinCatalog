@@ -1,0 +1,60 @@
+.coinForm {
+	position: relative;
+	display: flex;
+	gap: 50px;
+	height: 100%;
+	padding: 20px 50px;
+	input {
+		margin-bottom: 20px;
+		padding: 10px;
+	}
+}
+
+textarea:last-of-type {
+	height: 150px;
+}
+textarea {
+	padding: 10px;
+	display: block;
+	margin-left: 0;
+	width: 500px;
+	margin-bottom: 20px;
+}
+.admin {
+	margin: 20px 50px;
+}
+.buttons {
+	display: flex;
+	gap: 50px;
+	position: absolute;
+	bottom: 20px;
+}
+.save {
+	background-color: #833ae0;
+	color: white;
+	padding: 15px 30px;
+	border: none;
+	align-self: center;
+	&:hover {
+		cursor: pointer;
+		&:focus {
+			font-size: 17px;
+			padding: 10px 25px;
+			border-radius: 0.7rem;
+			transform: translate(0, -3px);
+			cursor: pointer;
+			transition: 0.2s;
+			transition-timing-function: linear;
+		}
+	}
+}
+.cancel {
+	margin-right: 10px;
+	border: none;
+	padding: 15px 40px;
+	align-self: self-end;
+	&:hover {
+		background-color: #aaaaaa;
+		cursor: pointer;
+	}
+}
